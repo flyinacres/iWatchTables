@@ -15,10 +15,12 @@
                                 <tableRow identifier="tableRowController" id="bPa-Gi-bzd" customClass="tableRowController" customModule="iWatchTables_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="2bI-Ez-yP9">
                                         <items>
+                                            <imageView width="36" height="1" alignment="left" contentMode="scaleAspectFit" id="x8G-Sv-am1"/>
                                             <label alignment="left" text="Row 1" id="g6k-Lt-r3l"/>
                                         </items>
                                     </group>
                                     <connections>
+                                        <outlet property="rowImage" destination="x8G-Sv-am1" id="nLh-X2-owi"/>
                                         <outlet property="rowLabel" destination="g6k-Lt-r3l" id="Ko0-Aw-7HG"/>
                                     </connections>
                                 </tableRow>

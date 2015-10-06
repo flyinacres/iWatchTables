@@ -17,10 +17,16 @@ class InterfaceController: WKInterfaceController {
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        table.setNumberOfRows(3, withRowType: "tableRowController")
+        let stooges = ["Larry", "Moe", "Curly", "Shemp"]
+        let filenames = ["head", "headangle2", "side", "tail"]
         
-        let row = table.rowControllerAtIndex(0) as! tableRowController
-        row.rowLabel.setText("Woohoo")
+        table.setNumberOfRows(stooges.count, withRowType: "tableRowController")
+        
+        for var i = 0; i < stooges.count; i = i + 1 {
+            let row = table.rowControllerAtIndex(i) as! tableRowController
+            row.rowLabel.setText(stooges[i])
+            row.rowImage.setImageNamed(filenames[i] + ".png")
+        }
     }
 
     override func willActivate() {
