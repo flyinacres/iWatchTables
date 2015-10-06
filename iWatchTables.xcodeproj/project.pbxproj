@@ -20,6 +20,7 @@
 		A577728B1BC369D1003C1D05 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57772891BC369D1003C1D05 /* Interface.storyboard */; };
 		A577728D1BC369D1003C1D05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577728C1BC369D1003C1D05 /* Images.xcassets */; };
 		A57772901BC369D1003C1D05 /* iWatchTables WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A57772751BC369D1003C1D05 /* iWatchTables WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A57772C01BC36BE6003C1D05 /* tableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57772BF1BC36BE6003C1D05 /* tableRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		A57772881BC369D1003C1D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A577728A1BC369D1003C1D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		A577728C1BC369D1003C1D05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A57772BF1BC36BE6003C1D05 /* tableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		A57772761BC369D1003C1D05 /* iWatchTables WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A57772BF1BC36BE6003C1D05 /* tableRowController.swift */,
 				A577727A1BC369D1003C1D05 /* InterfaceController.swift */,
 				A577727C1BC369D1003C1D05 /* NotificationController.swift */,
 				A577727E1BC369D1003C1D05 /* Images.xcassets */,
@@ -384,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57772C01BC36BE6003C1D05 /* tableRowController.swift in Sources */,
 				A577727D1BC369D1003C1D05 /* NotificationController.swift in Sources */,
 				A577727B1BC369D1003C1D05 /* InterfaceController.swift in Sources */,
 			);

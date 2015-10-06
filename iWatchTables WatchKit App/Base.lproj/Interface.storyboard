@@ -12,17 +12,22 @@
                     <items>
                         <table alignment="left" id="gcp-vD-QgC">
                             <items>
-                                <tableRow identifier="r1" id="bPa-Gi-bzd">
+                                <tableRow identifier="tableRowController" id="bPa-Gi-bzd" customClass="tableRowController" customModule="iWatchTables_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" id="2bI-Ez-yP9">
                                         <items>
-                                            <imageView width="36" alignment="left" id="gwO-dZ-XCN"/>
                                             <label alignment="left" text="Row 1" id="g6k-Lt-r3l"/>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="rowLabel" destination="g6k-Lt-r3l" id="Ko0-Aw-7HG"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="gcp-vD-QgC" id="QR4-BW-zi3"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
